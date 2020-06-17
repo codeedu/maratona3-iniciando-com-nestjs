@@ -1,0 +1,16 @@
+<html>
+<head>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<body>
+<h1>Listagem de categories</h1>
+
+<ul>
+    {{#forEach categories }}
+        <li>{{ id }} - {{ name }} - {{ created_at }}</li>
+    {{/forEach}}
+</ul>
+
+<script src="/js/bootstrap.js"></script>
+</body>
+</html>
